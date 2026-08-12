@@ -1,29 +1,42 @@
-# Welcome to your Lovable project
+# Phenomenal Products KE
 
-This project was built with [Lovable](https://lovable.dev).
+A modern e-commerce web application for **Phenomenal Products KE**, designed to provide customers with an easy and convenient way to browse products, view product details, manage their accounts, place orders, and discover promotional content.
 
-## Build with Lovable
+## Features
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+- 🛍️ Product browsing and shopping
+- 🔎 Product details and search
+- 🛒 Shopping cart and checkout
+- 👤 Customer account management
+- 📦 Order management
+- 🎁 Gift finder
+- 📱 Responsive design
+- 🎥 Promotional media
+- 🔐 User authentication
+- ⚙️ Admin functionality
+- 💾 Supabase backend integration
+- 🚀 Cloudflare Workers deployment support
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## Technology Stack
 
-## Development
+- **Frontend:** React / TypeScript
+- **Framework:** TanStack Start
+- **Routing:** TanStack Router
+- **Styling:** CSS
+- **Backend / Database:** Supabase
+- **Animations:** Framer Motion
+- **Charts:** Recharts
+- **Deployment:** Cloudflare Workers
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Project Structure
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+```text
+Phenomenal_Products_V5/
+├── public/              # Public static files
+├── src/                 # Application source code
+├── supabase/            # Supabase configuration
+├── .workspace/          # Workspace configuration
+├── package.json         # Project dependencies and scripts
+├── vite.config.ts       # Vite configuration
+├── tsconfig.json        # TypeScript configuration
+└── README.md            # Project documentation
